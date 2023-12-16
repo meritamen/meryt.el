@@ -1,0 +1,54 @@
+[submodule "borg"]
+	path = site-lisp/borg
+	url = git@github.com:emacscollective/borg.git
+[submodule "compat"]
+	path = site-lisp/compat
+	url = https://github.com/emacs-compat/compat
+[submodule "gcmh"]
+	path = site-lisp/gcmh
+	url = https://github.com/emacsmirror/gcmh
+[submodule "avy"]
+	path = site-lisp/avy
+	url = https://github.com/abo-abo/avy
+[submodule "mwim"]
+	path = site-lisp/mwim
+	url = https://github.com/alezost/mwim.el
+[submodule "marginalia"]
+	path = site-lisp/marginalia
+	url = https://github.com/minad/marginalia
+[submodule "vertico"]
+	path = site-lisp/vertico
+	url = https://github.com/minad/vertico
+[submodule "orderless"]
+	path = site-lisp/orderless
+	url = https://github.com/oantolin/orderless
+[submodule "sly"]
+	path = site-lisp/sly
+	url = https://github.com/joaotavora/sly
+[submodule "consult"]
+	path = site-lisp/consult
+	url = https://github.com/minad/consult
+[submodule "erc-sasl"]
+	path = site-lisp/erc-sasl
+	url = https://github.com/meritamen/erc-sasl
+[submodule "hydra"]
+	path = site-lisp/hydra
+	url = https://github.com/abo-abo/hydra
+[submodule "multiple-cursors"]
+	path = site-lisp/multiple-cursors
+	url = https://github.com/magnars/multiple-cursors.el
+[submodule "dash"]
+	path = site-lisp/dash
+	url = https://github.com/emacsmirror/dash
+[submodule "transient"]
+	path = site-lisp/transient
+	url = https://github.com/emacsmirror/transient
+[submodule "with-editor"]
+	path = site-lisp/with-editor
+	url = https://github.com/emacsmirror/with-editor
+[submodule "fullframe"]
+	path = site-lisp/fullframe
+	url = https://github.com/emacsmirror/fullframe
+[submodule "magit"]
+	path = site-lisp/magit
+	url = https://github.com/magit/magit

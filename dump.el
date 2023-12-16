@@ -1,0 +1,5 @@
+(package-initialize)
+(load (concat user-emacs-directory "init.el"))
+(defconst dumped-load-path load-path)
+(garbage-collect)
+(dump-emacs-portable "~/.emacs.d/Emacs.pdmp")
