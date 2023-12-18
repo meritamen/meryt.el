@@ -59,3 +59,4 @@
 (setq magit-bury-buffer-function #'+magit-kill-buffers)
 
 (provide 'init-vc)
+;;; init-vc.el ends here
