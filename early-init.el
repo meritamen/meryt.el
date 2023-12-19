@@ -37,6 +37,10 @@
       ;; This is further increased elsewhere, where needed (like our LSP module).
       read-process-output-max (* 64 1024)  ; 64kb
       ;; In noninteractive sessions, prioritize .el file. It saves IO time.
-      load-prefer-newer noninteractive)
+      load-prefer-newer noninteractive
+
+      ;; Disable mouse scrolling.
+      mouse-wheel-down-event nil
+      mouse-wheel-up-event nil)
 
 ;; early-init.el ends here
