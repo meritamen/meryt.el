@@ -64,11 +64,5 @@
 
 (add-hook 'sly-mode-hook #'+common-lisp-init-sly-h)
 
-(require 'paredit)
-
-(add-hook 'lisp-mode-hook #'paredit-mode)
-(add-hook 'emacs-lisp-mode-hook #'paredit-mode)
-(add-hook 'common-lisp-mode-hook #'paredit-mode)
-
 (provide 'init-langs)
 ;;; init-langs.el ends here
