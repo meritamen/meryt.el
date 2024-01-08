@@ -1,6 +1,6 @@
 [submodule "borg"]
 	path = site-lisp/borg
-	url = git@github.com:emacscollective/borg.git
+	url = https://github.com/emacscollective/borg
 [submodule "compat"]
 	path = site-lisp/compat
 	url = https://github.com/emacs-compat/compat
